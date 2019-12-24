@@ -9,6 +9,7 @@
 * [kaniko_build_publish](https://github.com/sb-courses/declarative-pipelines-examples/tree/master/kaniko_build_publish)
 * [kubectl_simple_command](https://github.com/sb-courses/declarative-pipelines-examples/tree/master/kubectl_simple_command)
 * [maven_push](https://github.com/sb-courses/declarative-pipelines-examples/tree/master/maven_push)
+* [multi_stage](https://github.com/stubrown-demos/declarative-pipelines-examples/tree/master/multi_stage)
 * [multistage_multicontainers](https://github.com/sb-courses/declarative-pipelines-examples/tree/master/multistage_multicontainers)
 * [synopsis-detect](https://github.com/sb-courses/declarative-pipelines-examples/tree/master/synopsis-detect)
 * [yaml_declared](https://github.com/sb-courses/declarative-pipelines-examples/tree/master/yaml_declared)
