@@ -19,7 +19,7 @@ pipeline {
          
           sh 'docker --version'
           sh 'ls -l'
-          sh 'docker build .'
+          sh 'docker build docker_in_docker/Dockerfile'
         }
       }
     }
