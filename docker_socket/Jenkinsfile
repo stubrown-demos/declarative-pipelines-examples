@@ -10,7 +10,7 @@ if (env.BRANCH_NAME == "master") {
 }
 
 env.IMAGE_VERSION = env.BRANCH_NAME.replaceAll("/", ".").replaceAll("-", ".") + ".${BUILD_NUMBER}" + env.ENV_SUFFIX
-env.DOCKER_IMAGE = "stuartcbrown/nginxtest:${IMAGE_VERSION}"
+env.DOCKER_IMAGE = "stushq/dockersockettest:${IMAGE_VERSION}"
 
 properties([buildDiscarder(logRotator(numToKeepStr: '10', artifactNumToKeepStr: '10'))])
 
