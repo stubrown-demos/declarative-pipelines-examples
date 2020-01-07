@@ -1,5 +1,7 @@
 # declarative-pipelines-examples
 
+_some of these repos relly on the shared library repo [declarative-pipelines-examples-libs](https://github.com/stubrown-demos/declarative-pipelines-examples-libs)
+
 
 * [aws_upload](https://github.com/sb-courses/declarative-pipelines-examples/tree/master/aws_upload)
 * [coverity_scan](https://github.com/sb-courses/declarative-pipelines-examples/tree/master/coverity_scan)
