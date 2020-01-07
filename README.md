@@ -3,7 +3,7 @@
 
 * [aws_upload](https://github.com/sb-courses/declarative-pipelines-examples/tree/master/aws_upload)
 * [coverity_scan](https://github.com/sb-courses/declarative-pipelines-examples/tree/master/coverity_scan)
-* [docker_in_docker](https://github.com/sb-courses/declarative-pipelines-examples/tree/master/docker_in_docker)
+* [docker_in_docker - (broken)](https://github.com/sb-courses/declarative-pipelines-examples/tree/master/docker_in_docker)
 * [docker_socket](https://github.com/sb-courses/declarative-pipelines-examples/tree/master/docker_socket)
 * [heroku-single-container](https://github.com/sb-courses/declarative-pipelines-examples/tree/master/heroku-single-container)
 * [kaniko_build_publish](https://github.com/sb-courses/declarative-pipelines-examples/tree/master/kaniko_build_publish)
