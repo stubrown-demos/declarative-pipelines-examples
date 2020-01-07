@@ -18,6 +18,7 @@ pipeline {
         container('docker') {
          
           sh 'docker --version'
+          sh 'ls -l'
           sh 'docker build .'
         }
       }
