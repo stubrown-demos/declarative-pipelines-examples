@@ -49,7 +49,7 @@ spec:
                 container('docker') {
                     dockerLogin()
                     sh 'echo build_image'
-                    sh "docker image build -t ${DOCKER_IMAGE} ."
+                    sh "docker image build -f docker_socket/Dockerfile -t ${DOCKER_IMAGE} ."
                     sh 'docker images'
                     sh 'docker version'                    
                  
