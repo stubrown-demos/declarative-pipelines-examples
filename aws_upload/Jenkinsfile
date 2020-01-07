@@ -29,6 +29,7 @@ spec:
             steps {
                 container('maven') {
                     withAWS(region: 'eu-west-1'){
+                        sh 'ls -lart'
                       s3Upload( file:'Jenkinsfile', bucket:'stu-cje-backups', path:'aws_upload')
                     }
                 }
