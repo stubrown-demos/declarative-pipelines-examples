@@ -5,18 +5,18 @@ pipeline {
       //cloud 'kubernetes'
       label 'pl_scripted_docker_dind'
       containerTemplate {
-        name 'maven'
-        image 'maven:3.3.9-jdk-8-alpine'
+        name 'docker'
+        image 'docker'
         ttyEnabled true
         command 'cat'
       }
     }
   }
   stages {
-    stage('Run maven') {
+    stage('Run docker') {
       steps {
-        container('maven') {
-          sh 'mvn -version'
+        container('docker') {
+         
           sh 'docker -version'
           sh 'docker build .'
         }
